@@ -5,18 +5,6 @@
 #include "cpu.h"
 #include "renderer.h"
 
-// bool load_bin(Cpu cpu, FILE* read_ptr)
-// {
-
-//     if(fread(cpu.mem ,4,1, read_ptr) == 0){
-//         return false;
-//     }
-//     for (int i = 0; i <2; i++){
-//         printf("%x\n", cpu.mem[i]);
-//     }
-
-//     return true; 
-// }
 
 
 int main()
@@ -33,10 +21,6 @@ int main()
 
     while (1)
     {
-        // if (key_pressed('x')){
-        //     printf("hello\n");
-        //     break;
-        // }
         cpu.cycle();
         renderer.render();
         // // Set every pixel to white.
