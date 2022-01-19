@@ -17,7 +17,7 @@ endif
 
 all:$(BIN) 
 
-OBJS := test.o cpu.o renderer.o
+OBJS := main.o cpu.o renderer.o
 
 deps := $(OBJS:%.o=.%.o.d)
 

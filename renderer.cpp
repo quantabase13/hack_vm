@@ -8,6 +8,9 @@ void Renderer::render()
         while (SDL_PollEvent(&event))
         {
             if (event.type == SDL_QUIT) exit(0);
+            // else if (event.type == SDL_KEYDOWN){
+            //     printf("keypress\n");
+            // }
 
         }
 
