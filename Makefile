@@ -1,5 +1,5 @@
 BIN = main
-CXXFLAGS = -std=c++11 -O2 -Wall -g
+CXXFLAGS = -std=c++11 -O0 -Wall -g
 
 # SDL
 CXXFLAGS += `sdl2-config --cflags `
